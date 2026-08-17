@@ -4,12 +4,12 @@
 
 	<footer class="container">
 		<?php $dt = new DateTime("now",new DateTimeZone("America/Sao_Paulo"))?>
-		<p>&copy;2016 à <?= $dt->format("Y")?>- Daniel Kühn e Sérgio</p>
+		<p>&copy;2026 à <?= $dt->format("Y")?>- Daniel Kühn e Sérgio</p>
 	</footer>
 
-
-    <script src="<?php echo BASEURL; ?>js/bootstrap.min.js"></script>
-
-    <script src="<?php echo BASEURL; ?>js/main.js"></script>
+	<script src="<?php echo BASEURL; ?>js/jquery-4.0.0.min.js"></script>
+    <script src="<?php echo BASEURL; ?>js/bootstrap.bundle.min.js"></script>	    
+	<script src="<?php echo BASEURL; ?>js/all.min.js"></script>
+	<script src="<?php echo BASEURL; ?>js/main.js"></script>
 </body>
 </html>
