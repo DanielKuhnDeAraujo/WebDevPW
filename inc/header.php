@@ -9,7 +9,6 @@
 
     
     <link rel="stylesheet" href="<?php echo BASEURL; ?>css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo BASEURL; ?>css/style.css">
     <style>
         body {
@@ -21,7 +20,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcrud" aria-controls="navbarcrud" aria-expanded="false" aria-label="Toggle navigation">
