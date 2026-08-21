@@ -16,12 +16,12 @@
             padding-top: 50px;
             padding-bottom: 20px;
         }
-        .bnt-light {
-          background-color: #e11313;
+        .btn-light {
+          background-color: #cccccc;
           border-color: #cccccc;
           color: #FFFFFF;
         }
-        .bnt-light:hover {
+        .btn-light:hover {
           background-color: #999999;
           border-color: #cccccc;
           color: #FFFFFF;
@@ -29,9 +29,9 @@
 
     </style>
 </head>
-<body>
+<body class="container">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg  bg-body-tertiary fixed-top " data-bs-theme="dark">
   <div class="container-fluid">
     <i class="fa-solid fa-house-chimney" style="color: white;"></i>
     <a class="navbar-brand" href="#">Navbar</a>

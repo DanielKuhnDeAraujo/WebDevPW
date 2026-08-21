@@ -1,7 +1,12 @@
 <?php include "config.php";
 include DBAPI;
 include(HEADER_TEMPLATE);
-$db = open_database(); ?>
+$erro =null;
+try{
+ $db = open_database(); 
+} catch (Exception $e){
+    $erro = $e;
+}?>
 
 <h1>Dashboard</h1>
 <hr />
@@ -38,7 +43,10 @@ $db = open_database(); ?>
 
 <?php else: ?>
     <div class="alert alert-danger" role="alert">
-        <p><b>ERRO:</b> Não foi possível Conectar ao Banco de Dados!</p>
+        <p>
+            <b>ERRO:</b> Não foi possível Conectar ao Banco de Dados!<br>
+            <?= $erro;?>
+        </p>
     </div>
 
 <?php endif; ?>
