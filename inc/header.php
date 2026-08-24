@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?php echo BASEURL; ?>css/all.min.css">
     <style>
         body {
-            padding-top: 50px;
+            padding-top: 75px;
             padding-bottom: 20px;
         }
         .btn-light {

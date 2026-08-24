@@ -7,8 +7,9 @@ try{
 } catch (Exception $e){
     $erro = $e;
 }?>
-
-<h1>Dashboard</h1>
+<div class="mt-3">
+<h1>O que eu quiser</h1>
+</div>
 <hr />
 
 <?php if ($db): ?>
@@ -18,7 +19,7 @@ try{
             <a href="customers/add.php" class="btn btn-secondary">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <i class="fa fa-user-plus fa-5x"></i>
+                        <i class="fa fa-user-plus fa-5x mt-3"></i>
                     </div>
                     <div class="col-xs-12 text-center">
                         <p>Novo Cliente</p>
@@ -31,7 +32,7 @@ try{
             <a href="customers" class="btn btn-light">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <i class="fa fa-user-group fa-5x"></i>
+                        <i class="fa fa-user-group fa-5x mt-3"></i>
                     </div>
                     <div class="col-xs-12 text-center">
                         <p>Clientes</p>
