@@ -44,7 +44,7 @@ include HEADER_TEMPLATE; ?>
                     <td><?php echo $customer['id']; ?></td>
                     <td><?php echo $customer['name']; ?></td>
                     <td><?php echo $customer['cpf_cnpj']; ?></td>
-                    <td><?php echo $customer['phone']; ?></td>
+                    <td><?php echo telefone($customer['phone']); ?></td>
                     <td>
                         <?php
 

@@ -31,7 +31,7 @@
 	<dd><?php echo $customer["hood"]; ?></dd>
 
 	<dt>CEP:</dt>
-	<dd><?php echo $customer["zip_code"]; ?></dd>
+	<dd><?php echo cep($customer["zip_code"]); ?></dd>
 
 	<dt>Data de Cadastro:</dt>
 	<dd><?php echo $customer["created"]; ?></dd>
@@ -42,16 +42,16 @@
 	<dd><?php echo $customer["city"]; ?></dd>
 
 	<dt>Telefone:</dt>
-	<dd><?php echo $customer["phone"]; ?></dd>
+	<dd><?php echo telefone($customer["phone"]); ?></dd>
 
 	<dt>Celular:</dt>
-	<dd><?php echo $customer["mobile"]; ?></dd>
+	<dd><?php echo telefone($customer["mobile"]); ?></dd>
 
 	<dt>UF:</dt>
 	<dd><?php echo $customer["state"]; ?></dd>
 
 	<dt>Inscrição Estadual:</dt>
-	<dd><?php echo $customer["ie"]; ?></dd>
+	<dd><?php echo number_format($customer["ie"], 0,",","."); ?></dd>
 
     <dt>Data de Cadastro</dt>
     <dd><?php echo formatadata($customer["created"],"d/m/Y"); ?></dd>
